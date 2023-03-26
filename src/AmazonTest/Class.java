@@ -38,6 +38,8 @@ public class Class {
 			System.out.println("Product : " + product_names.get(i).getText());
 			System.out.println("Price : " + rupees.get(i).getText() + " " + product_price.get(i).getText());
 		}
+		
+		driver.close();
 
 	}
 }
